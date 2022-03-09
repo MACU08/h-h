@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <main>
+    <header>
+        <h1 class="contacto">CONTACTO</h1>
+    </header>
+        <hr>
+        <nav>
+            <ul>
+                <li><a class="nav-index__li" href="../index.html">Sobre Nosotros</a></li>
+                <li><a class="nav-index__li" href="../index.html">Información</a></li>
+                <li><a class="nav-index__li" href="../pags/galeria.html">Galeria</a></li>                  
+                <li><a class="nav-index__li" href="../pags/contacto.html" >Contacto</a></li>
+                <li><a class="nav-index__li" href="../pags/eventos.html">Eventos</a></li>
+                <li><a class="nav-index__li" href="../pags/colaboradores.html">Colaboradores</a></li>
+            </ul>
+        </nav>
+    <hr>
+           <section class="formulario" id="contacto">
+                <form action="">
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                        <div class="form nombre">
+                            <label for="nombre">Completa tu Nombre</label>
+                            <input type="text" name="nombre" placeholder="nombre">
+                        </div>
+                        <div class="form apellido">
+                            <label for="apellido">Completa tu Apellido</label>
+                            <input type="text" name="apellido" placeholder="apellidos">
+                        </div>
+                        
+                        <div class="form mail">
+                            <label for="mail">Completa tu mail*</label>
+                            <input type="email" required="" name="email" placeholder="email">   
+                        </div>
+                        
+                        <div class="form pais">
+                            <label for="pais">Selecciona tu Nacionalidad</label>
+                            <select name="pais">
+                            <option value="argentina">ARGENTINA</option>
+                            <option value="colombia">COLOMBIA</option>
+                            <option value="peru">PERU</option>
+                            <option value="brasil">BRASIL</option>
+                        </select>
+                        </div>
+                        
+                        <div class="form sexo">
+                            <label for="sexo">Genero</label>
+                            <input type="radio" name="sexo" value="mujer">MUJER
+                            <input type="radio" name="sexo" value="hombre">HOMBRE
+                            <input type="radio" name="sexo" value="otro">OTRO
+                        </div>    
+                                
+                        <div class="form nacimiento">
+                            <label for="nacimiento">Fecha de Nacimiento</label>
+                            <input type="date" name="nacimiento">
+                        </div>
+                        
+                        <div class="form comentario">
+                            <label for="comentarios" name="comentarios">Comentarios</label>
+                            <textarea name="Comentarios" cols="50" rows="10"></textarea>                        
+                        </div>
+                        
+                        <div class="form terminos">
+                            <label for="terminos">Acepto Terminos y Condiciones</label>
+                            <input type="checkbox" name="terminos" required>
+                        </div>
+    
+                        <div class="form botones">
+                            <input type="submit" name="Enviar Datos">
+                            <input type="reset" name="Borrar Datos">
+                        </div>
+                  </fieldset>
+                </form>
+        </section>
+    <footer>
+        <ul>
+             <li><a href="https://es-la.facebook.com/" class="d" target="blank" style="text-decoration: none;">Facebook</a></li>
+             <li><a href="https://www.instagram.com/?hl=es" class="d" target="blank" style="text-decoration: none;">Instagram</a></li>
+             <li><a href="https://www.google.com/gmail/" class="d" target="blank" style="text-decoration: none;">Gmail</a></li>
+        </ul>
+    </footer>
+</main>
+
+</body>
+</html>
