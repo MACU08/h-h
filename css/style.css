@@ -34,6 +34,7 @@ header{
     font-size: 100%;
     font-family: 'Times New Roman', Times, serif;
 }
+
 @keyframes aparece{
     0%{
         opacity: 0.2;
@@ -71,7 +72,12 @@ a{
     color: white;
     text-decoration: none;
 }
-
+.modal-body{
+    color: black;
+}
+.modal-title{
+    color: #010101;
+}
 li{
     display: inline-block;
 }
