@@ -3,6 +3,7 @@
     padding: 0;    
 }
 body{
+
     padding: 20px;
     color: rgb(192, 187, 187);
     background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); 
@@ -11,6 +12,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); 
 }
 main{
+    font-family: 'Times New Roman', Times, serif;
     display: grid;
     grid-template-areas: 
     "header"
@@ -27,6 +29,10 @@ header{
     animation-duration: 5s;
     animation-name: aparece;
     color: #010101;
+}
+.letter{
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 @keyframes aparece{
     0%{
@@ -50,10 +56,15 @@ nav{
     text-decoration: none;
 }
 
-nav ul li a :hover{
+nav ul li a:hover{
     color: black;
 }
-.text-light:hover{
+ 
+.hoover{
+    color: white;
+}
+
+.hoover:hover{
     color: black;
 }
 a{
